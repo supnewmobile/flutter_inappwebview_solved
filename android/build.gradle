@@ -30,6 +30,7 @@ android {
 
         vectorDrawables.useSupportLibrary = true
         consumerProguardFiles 'proguard-rules.pro'
+        multiDexEnabled true
     }
     lintOptions {
         disable 'InvalidPackage'
